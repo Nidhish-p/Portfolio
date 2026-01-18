@@ -197,31 +197,51 @@
   <!-- ======= Education Section ======= -->
   <section id="education" class="services">
     <div class="container">
-      <div class="section-title">
-        <h2>Education</h2>
-      </div>
-      <div class="row">
-        <div class="col-lg-12" data-aos="fade-up" style="display: inline-block;">
+    <div class="section-title">
+      <h2>Education</h2>
+    </div>
 
+    <div class="row">
+      <div class="col-lg-12" data-aos="fade-up">
 
-            <div class="col-md-4 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100" style="padding:0px 0px;padding-bottom: 5px;display: inline-block;">
-              <img src="assets/img/education/uni.png" class="img-fluid" alt="">
-              <!-- <h4 style="text-align:left;"><a href="https://www.asu.edu/" target="_blank" style="color:#12d640">Arizona State University</a><br> </h4> -->
-              <p style="text-align:left;color:#fff;padding: 5px 10px;"><em>B.Tech in Computer Science(DS)</em></p>
-              <h5 style="text-align:left;padding: 0px 10px;">November 2022 - Present</h5>
-              <h6 style="text-align:left;color:#fff;padding: 0px 10px;">Relevant Coursework</h6>
-              <ul style="text-align:left;color:#fff;">
-                <li>Python & SQL</li>
-                <li>Distributed Database Systems</li>
-                <li>OOPS</li>
-                <li>AIML</li>
-                <li>Foundation Of Algorithms</li>
-              </ul>
-            </div>
+        <div class="col-md-12 icon-box"
+             data-aos="fade-up"
+             data-aos-delay="100"
+             style="display: flex; align-items: flex-start; gap: 20px; padding-bottom: 10px;">
+
+          <!-- Image -->
+          <img src="assets/img/education/uni.png"
+               class="img-fluid"
+               alt=""
+               style="width: 120px; height: 120px; object-fit: contain; background-color: #fff; padding: 10px;">
+
+          <!-- Text Content -->
+          <div>
+            <p style="text-align:left;color:#fff;margin: 0;">
+              <em>B.Tech in Computer Science (DS)</em>
+            </p>
+
+            <h5 style="text-align:left;margin: 4px 0;">
+              November 2022 - Present
+            </h5>
+
+            <h6 style="text-align:left;color:#fff;margin-top: 6px;">
+              Relevant Coursework
+            </h6>
+
+            <ul style="text-align:left;color:#fff;margin-top: 4px;">
+              <li>Python & SQL</li>
+              <li>Distributed Database Systems</li>
+              <li>OOPS</li>
+              <li>Foundation Of Algorithms</li>
+            </ul>
           </div>
-        </div>
-      </div>
 
+        </div>
+
+      </div>
+    </div>
+  </div>
 
     <div class="portfolio">
     <div class="container">
@@ -313,54 +333,82 @@
 
   <!-- Start Experience Section -->
 
-  <section id="experience" class="services">
-    <div class="container">
-      <div class="section-title">
-        <h2>Experience</h2>
-      </div>
-      <div class="row">
-        <div class="col-lg-12" data-aos="fade-up">
-      
-          <!-- Smart AI CCTV System -->
-          <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
-            <h4 style="text-align:left;"><a href="projects/SmartCctv.html" style="color:#12d640">Smart AI CCTV System</a></h4>
-            <h5 style="text-align:left;">March 2025</h5>
-            <p style="text-align:left;color:#fff"><em>Machine Learning/Deep Learning Intern - Client Product</em></p>
-            <ul style="text-align:left;">
-              <li>Led the research, planning, and construction of a real-time AI-powered CCTV system with attendance recognition and ReID, shaping the deep learning workflow and business framework with senior engineers, stakeholders, and a research associate; achieving 92% attendance-marking accuracy.</li>
-              <li>Engineered a scalable Raspberry Pi–based edge-computing architecture for low-cost, multi-location deployment.</li>
-              <li>Reached real-time throughput of 1,000+ frames per minute in under a month while cutting per-site hardware costs by ₹40,000 and reducing overall system expenditure by 60% across four years, validating a proof of concept that outperformed traditional NVR solutions in versatility and cost efficiency.</li>
-            </ul>
+  <section id="experience" class="portfolio">
+  <div class="container">
+
+    <div class="section-title">
+      <h2>Experience</h2>
+    </div>
+
+    <div class="row portfolio-container">
+
+      <!-- Smart AI CCTV System -->
+      <div class="col-lg-4 col-md-6 portfolio-item filter-project">
+        <center><h4>Smart AI CCTV System</h4></center>
+        <div class="portfolio-wrap">
+          <img src="assets/img/project/cctv.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>ML / DL Intern</h4>
+            <p>March 2025</p>
+            <div class="portfolio-links">
+              <a href="projects/SmartCctv.html"
+                 data-gall="portfolioDetailsGallery"
+                 data-vbtype="iframe"
+                 class="venobox"
+                 title="Experience Details">
+                <i class="bx bx-info-circle"></i>
+              </a>
+            </div>
           </div>
-      
-          <!-- Chlorophyll Prediction -->
-          <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
-            <h4 style="text-align:left;"><a href="projects/chlorophyll.html" style="color:#12d640">Chlorophyll Prediction</a></h4>
-            <h5 style="text-align:left;">March 2025</h5>
-            <p style="text-align:left;color:#fff"><em>Machine Learning/Deep Learning Intern - Client Product</em></p>
-            <ul style="text-align:left;">
-              <li>Constructed a client-facing plant health prediction system that replaced costly SPAD/CCM meters (₹50K–₹60K each) with an image-based ML solution.</li>
-              <li>Developed a two-stage Random Forest–LSTM hybrid model to estimate chlorophyll concentrations from leaf images with 96% accuracy while collaborating on data acquisition and preparation.</li>
-              <li>Applied SHAP for interpretability and deployed a Streamlit demonstration tool, enabling ~95% cost savings in field diagnostics and reinforcing the reliability of the pipeline.</li>
-            </ul>
-          </div>
-      
-          <!-- Rice Grain Quality Inspection -->
-          <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
-            <h4 style="text-align:left;"><a href="projects/riceQA.html" style="color:#12d640">Rice Grain Quality Inspection</a></h4>
-            <h5 style="text-align:left;">October 2024 – February 2025</h5>
-            <p style="text-align:left;color:#fff"><em>Computer Vision Intern</em></p>
-            <ul style="text-align:left;">
-              <li>Designed a computer vision pipeline for industrial rice-grain evaluation, resolving overlapping grains, background noise, and segmentation issues using YOLOv8 and OpenCV, with accuracy improvements across iterations.</li>
-              <li>Achieved 91–94% accuracy through fine-tuning on a 500+ image dataset; independently managed annotation and built the complete processing workflow while the rest of the team handled hardware and data logistics.</li>
-              <li>Added centroid tracking with cost-matrix optimization to ensure precise, real-time, and non-duplicative grain counting, strengthening overall detection consistency.</li>
-            </ul>
-          </div>
-      
         </div>
       </div>
+
+      <!-- Chlorophyll Prediction -->
+      <div class="col-lg-4 col-md-6 portfolio-item filter-project">
+        <center><h4>Chlorophyll Prediction</h4></center>
+        <div class="portfolio-wrap">
+          <img src="assets/img/project/chlorophyll.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>ML / DL Intern</h4>
+            <p>March 2025</p>
+            <div class="portfolio-links">
+              <a href="projects/chlorophyll.html"
+                 data-gall="portfolioDetailsGallery"
+                 data-vbtype="iframe"
+                 class="venobox"
+                 title="Experience Details">
+                <i class="bx bx-info-circle"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Rice Grain Quality Inspection -->
+      <div class="col-lg-4 col-md-6 portfolio-item filter-project">
+        <center><h4>Rice Grain Quality Inspection</h4></center>
+        <div class="portfolio-wrap">
+          <img src="assets/img/project/rice.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Computer Vision Intern</h4>
+            <p>Oct 2024 – Feb 2025</p>
+            <div class="portfolio-links">
+              <a href="projects/riceQA.html"
+                 data-gall="portfolioDetailsGallery"
+                 data-vbtype="iframe"
+                 class="venobox"
+                 title="Experience Details">
+                <i class="bx bx-info-circle"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
-  </section>
+  </div>
+</section>
+
 
   <!-- End Experience Section -->
 
